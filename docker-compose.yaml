@@ -1,0 +1,7 @@
+services:
+  frontend:
+    build: ./next-ecom
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./next-ecom/src:/app/src
